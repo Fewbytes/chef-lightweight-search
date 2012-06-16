@@ -5,6 +5,8 @@ The LightWeightNode object contains a subset of the original node object attribu
 
 This cookbooks will only help with chef-client RAM consumption. Fixing the server side of the search will require changes to the API.
 
+The amount of RAM saved varies wildly due to Ruby's GC. This really should be fixed on the server side.
+
 Usage
 =====
 In your recipes, use `lightweight_node_search` function instead of `search`. Function signature:
