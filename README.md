@@ -14,5 +14,5 @@ In your recipes, use `lightweight_node_search` function instead of `search`. Fun
 <pre><code>
 lightweight_node_search(query, whitelist)
 </code></pre>
-query - The search query
-whitelist - attributes to include in the lightweight node object. This can be an array or a (nested) hash of arrays/strings/symbols
+* `query` - The search query
+* `whitelist` - attributes to include in the lightweight node object. This can be an array or a (nested) hash of arrays/strings/symbols
